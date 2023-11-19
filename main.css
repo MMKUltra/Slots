@@ -1,0 +1,148 @@
+body{
+  background-color: #3da;
+}
+
+h2{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.title{
+  text-align: center;
+  font-family: sans-serif;
+  cursor: default;
+}
+
+.payouts{
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+  margin: 0px;
+}
+
+#scoutnoise{
+
+}
+
+.slider{
+  width: 200px;
+  transform: rotateZ(270deg) ;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+
+.chungusness{
+  width: 200px;
+
+  position: absolute;
+  top: 75%;
+  left: 11%;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#vcont{
+
+}
+
+.monke{
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 5;
+}
+
+.honke{
+  display: none;
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  z-index: 5;
+}
+
+.chungSquare{
+  border-radius: 10px;
+  animation-name: doingAChungus;
+  animation-duration: 0.5s;
+}
+
+@keyframes doingAChungus{
+  0%{transform: rotateY(90deg);}
+  45%{background-color: rgba(0, 0, 0, 0);}
+  60%{transform: rotateY(0deg);background-color: rgba(200, 175, 70, 0.5);}
+
+  100%{background-color: rgba(0, 0, 0, 0);}
+}
+
+#betSelect{
+  display: flex;
+  width: 772px;
+  margin: auto;
+}
+
+.currentbet{
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: 2px;
+}
+
+#bt{
+  height: 38px;
+}
+
+.bonusText{
+
+  text-align: center;
+  font-size: 36px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 0px;
+
+}
+
+.betno{
+  font-weight: bold;
+  color: #f2a;
+}
+
+.bet{
+  width: 100%;
+  border: 1px solid #777;
+  border-radius: 10px;
+  background-color: rgba(45, 45, 45, 0.2);
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+#rollButton{
+  width: 100%;
+  font-size: 24px;
+  font-family: monospace;
+  border-radius: 10px;
+}
+
+#botStats{
+  display: flex;
+  border: 2px solid #555;
+  width: 772px;
+  margin: auto;
+}
+
+.bot{
+  width: 100%;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#rollBox{
+  margin: auto;
+  background-color: #555;
+  width: 772px;
+  height: 534px;
+}
