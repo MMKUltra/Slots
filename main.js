@@ -460,7 +460,7 @@ let symbols = [
   },
   {
     "name": "pods",
-    "sprite": "mid.png",
+    "sprite": "Mid.png",
     "rank": 3,
     "pay": 40
   },
